@@ -33,7 +33,7 @@ page = st.sidebar.radio("Gitmek istediğiniz sayfayı seçin:", ["Data Table", "
 
 # Sayfa 1: Data Tablosu
 if page == "Data Table":
-    st.title("Veri Tablosu")
+    st.title("Akıllı Acil Durum Yönetimi")
     st.write("Trafik Yoğunluğu Verisi")
     st.dataframe(df)
 
